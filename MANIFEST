@@ -1,0 +1,10 @@
+Changes
+Makefile.PL
+MANIFEST
+SIGNATURE
+README
+t/0-signature.t
+t/1-Acme-Abuse.t
+t/Acme/Abuse/Test.pm
+lib/Acme/Abuse.pm
+META.yml                                 Module meta-data (added by MakeMaker)

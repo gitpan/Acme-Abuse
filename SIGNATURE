@@ -1,0 +1,32 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.37.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It would check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 d289cbf78af4aa5c35e1004efbd98326ffa1a333 Changes
+SHA1 a7275fbf03992a006c49877ac451f3bf397a664f MANIFEST
+SHA1 537a1b92a1e948039dd28aadac509a3cab27f863 META.yml
+SHA1 a25dd90030b25fa87d9e8b8f15b800f7389e424b Makefile.PL
+SHA1 e588aa70d01dd2dcefecae22303475f8680c8271 README
+SHA1 291b4ec2133a8cbc41e5528af1b2760850fd7f10 lib/Acme/Abuse.pm
+SHA1 58c45878b60a3cc6ebe35267c03a480089cd68ac t/0-signature.t
+SHA1 cf508ac580c45152399fd79cab233620247454c6 t/1-Acme-Abuse.t
+SHA1 e04ba459d875cd39fae043c9ff80944a4d5a6640 t/Acme/Abuse/Test.pm
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.2.3 (GNU/Linux)
+
+iD8DBQE/0LQ1/tSKrMmcELQRAri+AJ9GuRLtd2JJDDMQSfYFclaqThlyVQCggVJO
+ODShxlwaSZzkyJoGEK0uOhs=
+=eP8/
+-----END PGP SIGNATURE-----

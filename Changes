@@ -1,0 +1,10 @@
+Revision history for Perl extension Acme::Abuse.
+
+0.02 2003-11-28
+	Collected the sub calls up into an rpc.
+	Signed.
+
+0.01  2003-11-28
+	- original version; created by h2xs 1.23 with options
+		-AX -n Acme::Abuse
+
